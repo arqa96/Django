@@ -1,0 +1,25 @@
+{% extends 'phone/base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+  <article class="content-section ml-3 mt-3">
+    <div class="media">
+      <img  class="rounded-circle article-img" src="{{ request.user.profile.image.url }}" height="80px" width="80px">
+      <div class="media-body ml-3">
+        <a  class="pr-0"href="{% url 'profile' %}"><h4>{{ user.username }}</h4></a>
+        <p class="text-muted">{{ user.email }}</p>
+      </div>
+    </div>
+    <form class="mt-2" method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      <fieldset class="form-group">
+        <legend class="mb-4 border-bottom">Profile Info</legend>
+        {{ u_form|crispy }}
+        {{ p_form|crispy }}
+      </fieldset>
+      <div class="form-group">
+        <button type="submit" class="btn btn-outline-info">Update</button>
+      </div>
+    </form>
+  </article>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends 'phone/base.html' %}
+{% block content %}
+
+{% for phone in phones %}
+  <article class="media content-section ml-3">
+    <img  class="rounded article-img" src="{{ phone.image.url }}" height="150px" width="145px"  alt="">
+    <div class="media-body ml-3">
+      <div class="media article-metadate">
+        <a href="{% url 'phone-detail' phone.id %}"><h5>{{ phone.get_phone_display }} {{phone.phone_model}}</h5></a>
+
+      </div>
+      <h5>{{ phone.name }}</h5>
+      <p class="text-muted">{{ phone.get_metro_display }}<br>
+        дата публикации: {{ phone.pub_date|date:'d-m-Y H:i'}}
+      </p>
+      <h6>{{ phone.phone_number }}</h6>
+    </div>
+    <h4>{{ phone.price }} &#8381;</h4>
+
+  </article>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends 'phone/base.html' %}
+{% block content %}
+
+  <article class="media content-section ml-3">
+    <img  class="rounded article-img" src="{{ object.image.url }}" height="150px" alt="">
+    <div class="media-body ml-3">
+      <div class="article-metadata">
+        <a href="#"><h5>{{ object.get_phone_display }} {{object.phone_model}}</h5></a>
+
+      </div>
+      <h5>{{ object.name }}</h5>
+      <p class="text-muted">{{ object.get_metro_display }}<br>
+        дата публикации: {{ object.pub_date|date:'d-m-Y H:i'}}
+      </p>
+      <h6>{{ object.phone_number }}</h6>
+      <p class='mt-5 mb-2'>Информация:<br>
+      {{ object.comments }}</p>
+      {% if object.user == user %}
+        <div class="buttons">
+          <a class="btn btn-secondary btn-sm mt-1 mb-1" href="{% url 'phone-update' object.id %}">Update</a>
+          <a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'phone-delete' object.id %}">Delete</a>
+        </div>
+      {% endif %}
+
+    </div>
+    <h4>{{ object.price }} &#8381;</h4>
+
+  </article>
+
+{% endblock %}

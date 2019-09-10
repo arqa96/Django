@@ -1,0 +1,19 @@
+{% extends 'phone/base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+  <article class="content-section ml-3">
+    <form method="post">
+      {% csrf_token %}
+      <fieldset class="form-group">
+        <legend class="mb-3 mt-3 border-bottom">Log in</legend>
+        {{ form|crispy }}
+      </fieldset>
+      <div class="form-group">
+        <button type="submit" class="btn btn-outline-success">Sign In</button>
+      </div>
+    </form>
+    <div class="border-top pt-3">
+      <small class="text-muted"> Need An Account? <a class="ml-2" href="{% url 'register' %}">Sign Up</a></small>
+    </div>
+  </article>
+{% endblock %}

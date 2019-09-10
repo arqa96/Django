@@ -1,0 +1,48 @@
+ul {
+  margin: 0;
+}
+.site-header .navbar-light {
+  background-color: #3CB371;
+  height: 4rem;
+}
+
+.site-header .navbar-brand {
+  font-size: 23px;
+  font-weight: 600;
+  font-family: 'Righteous', cursive;
+}
+
+.content-section .media-body .media a {
+  text-decoration: none;
+}
+
+.content-section p {
+  padding: 0;
+  margin: 0;
+}
+
+.content-section {
+  margin-top: 2rem;
+  background-color: #F0F0F0;
+  padding: 15px 18px;
+  border: 1px solid #848282;
+  border-radius: 5px;
+}
+
+.site-header .navbar-nav .nav-item .nav-link {
+  color: black;
+  font-size: 17px;
+  overflow: hidden;
+}
+
+.site-header .navbar-nav .nav-item .nav-link:hover {
+  color: #ffffff;
+}
+
+.menu {
+  margin-top: 2rem;
+  background-color: #F0F0F0;
+  padding: 15px 18px;
+  border: 1px solid #848282;
+  border-radius: 5px;
+}
