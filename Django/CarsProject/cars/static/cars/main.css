@@ -1,0 +1,123 @@
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+}
+
+.navbar-dark {
+  background-color: #d44646;
+}
+
+.site-header .navbar-nav .nav-item .nav-link{
+  color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-item .nav-link:hover{
+  color: #d44646;
+  background-color: #ffffff;
+}
+
+.navbar-nav {
+  font-size: 17px;
+}
+
+.site-header .navbar-brand {
+  font-size: 23px;
+}
+
+.content-section {
+  margin-top: 2rem;
+  background: #F2F2F2;
+  padding: 20px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.site-header .dropdown:hover .dropdown-menu{
+  display: block;
+  width: 200px;
+  margin: 0;
+}
+
+.site-header .dropdown-toggle::after {
+  display: none;
+}
+
+.site-header .dropdown-menu a{
+  padding-left: 13px;
+  color: black;
+
+}
+
+.site-header .dropdown-menu a:hover {
+  text-decoration: none;
+  color: #d44646;
+}
+
+.content-section .article-image {
+  overflow: hidden;
+  height: 150px;
+  width: 210px;
+}
+
+.content-section .article-image:hover {
+  transform: scale(1.1);
+  transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.content-section .media-body a{
+  color: black;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.content-section .media-body a:hover{
+  color: #C50602;
+}
+
+.content-section .article-info {
+  font-size: 15px;
+}
+
+.content-section h6 {
+  padding-top: 4px;
+}
+
+.content-section .media-body {
+  margin-right: 30px;
+}
+
+.navigation-section {
+  width: 200px;
+  margin-top: 2rem;
+  padding: 0;
+  background: #F2F2F2;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.navigation-section .cars-menu a{
+  color: black;
+  text-decoration: none;
+  font-size: 19px;
+  padding: 5px;
+  display: block;
+}
+
+.navigation-section .cars-menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+}
+
+
+.navigation-section .cars-menu li:hover {
+  background-color: #187CFF;
+}
+
+.navigation-section .cars-menu li:hover a{
+  color: #ffffff;
+}

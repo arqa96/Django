@@ -1,0 +1,19 @@
+{% extends 'cars/base.html' %}
+{% block content %}
+  {% for ferrari in ferraries %}
+    <article class="media content-section">
+      <a href="#"><img class="rounded article-image" src="{{ ferrari.image.url }}"></a>       
+      <div class="media-body">
+      	<h5><a class="mr-2" href="#">Ferrari {{ ferrari.model }}</a></h5>		
+        <div class="ml-3 article-info">
+          <p class="text-muted">{{ ferrari.engine }}<br>
+          {{ ferrari.transmission }}<br>
+          {{ ferrari.drive }}</p>
+        </div>
+      </div>
+      <div class="price-info mr-2">
+        <h5>{{ ferrari.price }} ₽</h5>
+      </div>  
+  	</article>
+  {% endfor %}
+{% endblock content %}

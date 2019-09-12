@@ -1,0 +1,11 @@
+{% extends 'cars/base.html' %}
+{% block content %}
+  <h3 class="mt-3">You have been logout</h3>
+  <div class="border-top pt-3">
+    <small class="text-muted">
+    <a class="mg-2" href="{% url 'login' %}">Login again</a>
+    </small>
+  </div>
+
+{% endblock content %}
+         

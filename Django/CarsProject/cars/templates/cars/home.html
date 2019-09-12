@@ -1,0 +1,20 @@
+{% extends 'cars/base.html' %}
+{% block content %}
+  {% for car in cars %}
+    <article class="media content-section">
+      <a href="#"><img class="rounded article-image" src="{{ car.image.url }}"></a>       
+      <div class="media-body">
+      	<h5><a class="mr-2" href="#">{{ car.brand }} {{ car.model }}</a></h5>		
+        <div class="ml-3 article-info">
+          <p class="text-muted">{{ car.engine }}<br>
+          {{ car.transmission }}<br>
+          {{ car.drive }}</p>
+        </div>
+      </div>
+      <div class="price-info mr-2">
+        <h5>{{ car.price }} ₽</h5>
+      </div>  
+  	</article>
+  {% endfor %}
+{% endblock content %}
+         
