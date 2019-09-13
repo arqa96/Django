@@ -2,25 +2,35 @@ from django.shortcuts import render
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from .models import Phone
 from django.views.generic import (
+    ListView,
     DetailView,
     CreateView,
     UpdateView,
     DeleteView
 )
 
-def home(request):
-    context = {
-        'phones': Phone.objects.all().order_by('-pub_date'),
-        'apple_count': str(Phone.objects.filter(phone__iexact='apple').count()),
-        'samsung_count': str(Phone.objects.filter(phone__iexact='samsung').count()),
-        'xiaomi_count': str(Phone.objects.filter(phone__iexact='xiaomi').count()),
-        'lg_count': str(Phone.objects.filter(phone__iexact='lg').count())
-    }
-    return render(request, ('phone/home.html','phone/base.html'), context)
+
+class PhoneListView(ListView):
+    model = Phone
+    template_name = 'phone/home.html'
+    context_object_name = 'phones'
+    ordering = ['-pub_date']
+    paginate_by = 5
+
+    def get_context_data(self, *args, **kwargs):
+
+        context = super(PhoneListView, self).get_context_data(*args, **kwargs)
+        context['apple_count'] = str(Phone.objects.filter(phone__iexact='apple').count())
+        context['samsung_count'] = str(Phone.objects.filter(phone__iexact='samsung').count())
+        context['xiaomi_count'] = str(Phone.objects.filter(phone__iexact='xiaomi').count())
+        context['lg_count'] = str(Phone.objects.filter(phone__iexact='lg').count())
+
+        return context
 
 
 class PhoneDetailView(DetailView):
     model = Phone
+
 
 class PhoneCreateView(CreateView, LoginRequiredMixin,  UserPassesTestMixin):
     model = Phone
@@ -29,6 +39,7 @@ class PhoneCreateView(CreateView, LoginRequiredMixin,  UserPassesTestMixin):
     def form_valid(self, form):
        form.instance.user = self.request.user
        return super().form_valid(form)
+
 
 class PhoneUpdateView(UpdateView, LoginRequiredMixin, UserPassesTestMixin):
     model = Phone
@@ -43,6 +54,7 @@ class PhoneUpdateView(UpdateView, LoginRequiredMixin, UserPassesTestMixin):
         if self.request.user == phone.user:
             return True
         return False
+
 
 class PhoneDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
     model = Phone

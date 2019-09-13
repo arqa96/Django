@@ -10,6 +10,7 @@
 
     <title>Phone shop</title>
 
+
   </head>
   <body>
     <header class="site-header">
@@ -50,30 +51,6 @@
               {% endfor %}
             {% endif %}
             {% block content %}{% endblock %}
-          </div>
-          <div class="col-lg-4">
-            {% for app_count in apple_count %}
-            {% for sam_count in samsung_count %}
-            {% for xia_count in xiaomi_count %}
-            {% for lg_count in lg_count %}
-              <nav class="menu">
-                <div>
-                  <a href="#">Apple</a> {{ app_count }}
-                </div>
-                <div>
-                  <a href="#">Samsung</a> {{ sam_count }}
-                </div>
-                <div>
-                  <a href="#">Xiaomi</a> {{ xia_count }}
-                </div>
-                <div>
-                  <a href="#">LG</a> {{ lg_count }}
-                </div>
-              </nav>
-            {% endfor %}
-            {% endfor %}
-            {% endfor %}
-            {% endfor %}
           </div>
         </div>
       </div>

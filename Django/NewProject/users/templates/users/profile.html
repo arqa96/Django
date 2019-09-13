@@ -6,7 +6,7 @@
     <div class="media">
       <img  class="rounded-circle article-img" src="{{ request.user.profile.image.url }}" height="80px" width="80px">
       <div class="media-body ml-3">
-        <a  class="pr-0"href="{% url 'profile' %}"><h4>{{ user.username }}</h4></a>
+        <a href="{% url 'profile' %}"><h4>{{ user.username }}</h4></a>
         <p class="text-muted">{{ user.email }}</p>
       </div>
     </div>
