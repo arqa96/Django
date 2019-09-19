@@ -2,17 +2,17 @@
 {% block content %}
 
   <article class="media content-section ml-3">
-    <img  class="rounded article-img" src="{{ object.image.url }}" height="150px" alt="">
+    <img  class="rounded article-img" src="{{ object.image_field.url }}" height="150px" alt="">
     <div class="media-body ml-3">
       <div class="article-metadata">
         <a href="#"><h5>{{ object.get_phone_display }} {{object.phone_model}}</h5></a>
 
       </div>
-      <h5>{{ object.name }}</h5>
+      <h5>{{ object.name }} (<a href="{% url 'user-phones' phone.user.username %}">{{ phone.user }}</a>)</h5>
       <p class="text-muted">{{ object.get_metro_display }}<br>
         дата публикации: {{ object.pub_date|date:'d-m-Y H:i'}}
       </p>
-      <h6>{{ object.phone_number }}</h6>
+      <h6>{{ object.valid_phone_number }}</h6>
       <p class='mt-5 mb-2'>Информация:<br>
       {{ object.comments }}</p>
       {% if object.user == user %}

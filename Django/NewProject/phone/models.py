@@ -20,13 +20,17 @@ class Phone(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     phone = models.CharField('Телефон', max_length=20, choices=PHONE_CHOICES)
     phone_model = models.CharField('Модель Телефона', max_length=10)
-    image = models.ImageField('Картинка', default='default.png', upload_to='phone_pics')
+    image_field = models.ImageField('Картинка', default='default.png', upload_to='phone_pics')
     price = models.IntegerField('Цена')
     name = models.CharField('Имя', max_length=15, blank=True, null=True)
     metro = models.CharField('Станция Метро', max_length=20, choices=METRO_CHOICES)
-    comments = models.TextField('Комментарии Пользователя')
-    phone_number = models.CharField('Номер телефона', max_length=15)
+    comments = models.TextField('Комментарии Пользователя', blank = True, null=True)
+    phone_number = models.CharField('Номер телефона', max_length=11, help_text='Input your phone number in format 79XXXXXXXXX')
     pub_date = models.DateTimeField('Дата Публикации', default=timezone.now)
+
+    def valid_phone_number(self):
+        s = self.phone_number
+        return '+%s(%s%s%s)%s%s%s-%s%s-%s%s' % tuple(s)
 
     def __str__(self):
         return f'{self.phone} {self.phone_model}'

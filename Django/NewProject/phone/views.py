@@ -1,4 +1,5 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
+from django.contrib.auth.models import User
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from .models import Phone
 from django.views.generic import (
@@ -28,22 +29,33 @@ class PhoneListView(ListView):
         return context
 
 
+class UserPhoneListView(ListView):
+    model = Phone
+    template_name = 'phone/user_phones.html'
+    context_object_name = 'phones'
+    paginate_by = 5
+
+    def get_queryset(self):
+        user = get_object_or_404(User, username=self.kwargs.get('username'))
+        return Phone.objects.filter(user=user).order_by('-pub_date')
+
+
 class PhoneDetailView(DetailView):
     model = Phone
 
 
 class PhoneCreateView(CreateView, LoginRequiredMixin,  UserPassesTestMixin):
     model = Phone
-    fields = ['phone', 'phone_model', 'image', 'price', 'name', 'metro', 'phone_number']
+    fields = ['phone', 'phone_model', 'image_field', 'price', 'name', 'metro', 'phone_number', 'comments']
 
     def form_valid(self, form):
-       form.instance.user = self.request.user
-       return super().form_valid(form)
+        form.instance.user = self.request.user
+        return super().form_valid(form)
 
 
 class PhoneUpdateView(UpdateView, LoginRequiredMixin, UserPassesTestMixin):
     model = Phone
-    fields = ['phone', 'phone_model', 'image', 'price', 'name', 'metro', 'phone_number']
+    fields = ['phone', 'phone_model', 'image_field', 'price', 'name', 'metro', 'phone_number', 'comments']
 
     def form_valid(self, form):
         form.instance.user = self.request.user

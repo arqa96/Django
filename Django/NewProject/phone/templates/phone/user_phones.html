@@ -1,26 +1,11 @@
 {% extends 'phone/base.html' %}
 {% block content %}
 
-{% for app_count in apple_count %}
-{% for sam_count in samsung_count %}
-{% for xia_count in xiaomi_count %}
-{% for lg_count in lg_count %}
-  <nav class="content-section">
-    <ul>
-    <li><a href="#">Iphone </a>({{ app_count }})</li>
-    <li><a href="#">Samsung </a>({{ sam_count }})</li>
-    <li><a href="#">Xiaomi </a>({{ xiaomi_count }})</li>
-    <li><a href="#">LG </a>({{ lg_count }})</li>
-  </ul>
-  </nav>
-{% endfor %}  
-{% endfor %}
-{% endfor %}
-{% endfor %}
+<h1 class="mb-3 ml-3">Phones by {{ view.kwargs.username }} ({{ page_obj.paginator.count }})</h1>
 
 {% for phone in phones %}
   <article class="media content-section">
-    <img  class="rounded article-img" enctype="multipart/form-data" src="{{ phone.image_field.url }}" height="150px" width="145px"  alt="">
+    <img  class="rounded article-img" src="{{ phone.image_field.url }}" height="150px" width="145px"  alt="">
     <div class="media-body ml-3">
       <div class="media article-metadate">
         <a href="{% url 'phone-detail' phone.id %}"><h5>{{ phone.get_phone_display }} {{phone.phone_model}}</h5></a>
@@ -36,7 +21,7 @@
 {% endfor %}
 
 {% if is_paginated %}
-  <div class="mt-5 ml-3">
+  <div>
     {% if page_obj.has_previous %}
         <a class="btn btn-outline-info mb-4" href="?page=1">First</a>
         <a class="btn btn-outline-info mb-4" href="?page={{ page_obj.previous_page_number }}">Previous</a>
@@ -56,6 +41,5 @@
       {% endif %}
   </div>
       
-
 {% endif %}
 {% endblock %}
