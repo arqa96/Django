@@ -1,0 +1,14 @@
+
+
+employee: Ivanov Ivan
+age: 25
+salary: 30000
+
+employee: Sergeev Sergei
+age: 26
+salary: 35000
+
+
+employee: Antonov Anton
+age: 20
+salary: 20000
