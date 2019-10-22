@@ -29,8 +29,8 @@ class Phone(models.Model):
     pub_date = models.DateTimeField('Дата Публикации', default=timezone.now)
 
     def valid_phone_number(self):
-        s = self.phone_number
-        return '+%s(%s%s%s)%s%s%s-%s%s-%s%s' % tuple(s)
+        num = self.phone_number
+        return '+%s(%s%s%s)%s%s%s-%s%s-%s%s' % tuple(num)
 
     def __str__(self):
         return f'{self.phone} {self.phone_model}'

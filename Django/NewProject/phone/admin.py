@@ -3,4 +3,4 @@ from .models import Phone
 
 
 admin.site.register(Phone)
-# Register your models here.
+

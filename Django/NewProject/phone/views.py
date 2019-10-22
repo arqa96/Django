@@ -44,7 +44,7 @@ class PhoneDetailView(DetailView):
     model = Phone
 
 
-class PhoneCreateView(CreateView, LoginRequiredMixin,  UserPassesTestMixin):
+class PhoneCreateView(CreateView, LoginRequiredMixin):
     model = Phone
     fields = ['phone', 'phone_model', 'image_field', 'price', 'name', 'metro', 'phone_number', 'comments']
 

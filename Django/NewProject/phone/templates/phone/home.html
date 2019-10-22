@@ -1,22 +1,14 @@
 {% extends 'phone/base.html' %}
 {% block content %}
 
-{% for app_count in apple_count %}
-{% for sam_count in samsung_count %}
-{% for xia_count in xiaomi_count %}
-{% for lg_count in lg_count %}
   <nav class="content-section">
     <ul>
-    <li><a href="#">Iphone </a>({{ app_count }})</li>
-    <li><a href="#">Samsung </a>({{ sam_count }})</li>
+    <li><a href="#">Iphone </a>({{ apple_count }})</li>
+    <li><a href="#">Samsung </a>({{ samsung_count }})</li>
     <li><a href="#">Xiaomi </a>({{ xiaomi_count }})</li>
     <li><a href="#">LG </a>({{ lg_count }})</li>
   </ul>
   </nav>
-{% endfor %}  
-{% endfor %}
-{% endfor %}
-{% endfor %}
 
 {% for phone in phones %}
   <article class="media content-section">
@@ -55,7 +47,7 @@
         <a class="btn btn-outline-info mb-4" href="?page={{ page_obj.paginator.num_pages }}">Last</a>
       {% endif %}
   </div>
-      
+
 
 {% endif %}
 {% endblock %}
