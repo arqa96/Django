@@ -1,0 +1,542 @@
+[
+    {
+        "rating": "9.1",
+        "image_url": "https://www.bookvoed.ru//files/1377/55/80/49/8.jpg",
+        "title": "Пиши, сокращай: Как создавать сильный текст",
+        "author": "Ильяхов Максим",
+        "old_price": "товар без скидки",
+        "price": "744 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=6902713"
+    },
+    {
+        "rating": "9.2",
+        "image_url": "https://www.bookvoed.ru//files/1377/55/80/59/4.jpeg",
+        "title": "Преступление и наказание",
+        "author": "Достоевский Федор Михайлович",
+        "old_price": "товар без скидки",
+        "price": "189 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=6244419"
+    },
+    {
+        "rating": "9.6",
+        "image_url": "https://www.bookvoed.ru//files/1377/57/88/55/4.jpeg",
+        "title": "Триумфальная арка",
+        "author": "Ремарк Эрих Мария",
+        "old_price": "товар без скидки",
+        "price": "259 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=7415619"
+    },
+    {
+        "rating": "9.5",
+        "image_url": "https://www.bookvoed.ru//files/1377/64/31/20/3.jpeg",
+        "title": "Мартин Иден",
+        "author": "Лондон Джек",
+        "old_price": "товар без скидки",
+        "price": "198 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=6152017"
+    },
+    {
+        "rating": "нет рейтинга",
+        "image_url": "https://www.bookvoed.ru//files/1377/11/59/25/18.jpeg",
+        "title": "Пояс Ориона",
+        "author": "Устинова Татьяна Витальевна",
+        "old_price": "товар без скидки",
+        "price": "245 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=12988477"
+    },
+    {
+        "rating": "9.8",
+        "image_url": "https://www.bookvoed.ru//files/1377/68/27/37/1.jpeg",
+        "title": "Рабочая тетрадь \"Изучаем математику\" часть 1",
+        "author": "",
+        "old_price": "37 ₽",
+        "price": "28 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=614472"
+    },
+    {
+        "rating": "8.8",
+        "image_url": "https://www.bookvoed.ru//files/1377/11/98/91/04.jpeg",
+        "title": "Шантарам (комплект в 2-х томах)",
+        "author": "Робертс Грегори Дэвид",
+        "old_price": "товар без скидки",
+        "price": "365 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=3216604"
+    },
+    {
+        "rating": "9.5",
+        "image_url": "https://www.bookvoed.ru//files/1377/55/30/47/5.jpg",
+        "title": "Токийский гуль. Книга 1",
+        "author": "Исида Суи",
+        "old_price": "товар без скидки",
+        "price": "664 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=8784980"
+    },
+    {
+        "rating": "9.2",
+        "image_url": "https://www.bookvoed.ru//files/1377/86/98/26/8.jpg",
+        "title": "Naruto. Наруто. Книга 2. Мост героя",
+        "author": "Кисимото Масаси",
+        "old_price": "товар без скидки",
+        "price": "749 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=10966172"
+    },
+    {
+        "rating": "9.3",
+        "image_url": "https://www.bookvoed.ru//files/1377/64/29/95/6.jpeg",
+        "title": "Метро 2033",
+        "author": "Глуховский Дмитрий Алексеевич",
+        "old_price": "товар без скидки",
+        "price": "749 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=9369800"
+    },
+    {
+        "rating": "9.6",
+        "image_url": "https://www.bookvoed.ru//files/1377/55/63/08/1.jpeg",
+        "title": "Тайная опора: привязанность в жизни ребенка",
+        "author": "Петрановская Людмила Владимировна",
+        "old_price": "товар без скидки",
+        "price": "319 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=6667723"
+    },
+    {
+        "rating": "8.6",
+        "image_url": "https://www.bookvoed.ru//files/1377/69/03/77/5.jpeg",
+        "title": "Повелитель мух",
+        "author": "Голдинг Уильям Джеральд",
+        "old_price": "товар без скидки",
+        "price": "224 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=3304300"
+    },
+    {
+        "rating": "9.5",
+        "image_url": "https://www.bookvoed.ru//files/1377/33/94/06/8.jpeg",
+        "title": "Маленький принц (нов. обл.) (рис. автора)",
+        "author": "Сент-Экзюпери Антуан де",
+        "old_price": "товар без скидки",
+        "price": "240 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=6806158"
+    },
+    {
+        "rating": "9.4",
+        "image_url": "https://www.bookvoed.ru//files/1377/11/46/36/68.jpeg",
+        "title": "Внутри убийцы",
+        "author": "Омер Майк",
+        "old_price": "товар без скидки",
+        "price": "507 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=10255211"
+    },
+    {
+        "rating": "9.5",
+        "image_url": "https://www.bookvoed.ru//files/1377/34/89/44/7.jpeg",
+        "title": "Букварь",
+        "author": "Жукова Надежда Сергеевна",
+        "old_price": "товар без скидки",
+        "price": "385 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=376547"
+    },
+    {
+        "rating": "9.8",
+        "image_url": "https://www.bookvoed.ru//files/1377/43/05/13/4.jpg",
+        "title": "Death Note. Black Edition. Книга 1",
+        "author": "Ооба Цугуми",
+        "old_price": "товар без скидки",
+        "price": "749 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=7695223"
+    },
+    {
+        "rating": "нет рейтинга",
+        "image_url": "https://www.bookvoed.ru//files/1377/34/29/85/5.jpeg",
+        "title": "Таблица Менделеева/Таблица растворимости Листовка А5",
+        "author": "",
+        "old_price": "26 ₽",
+        "price": "23 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=6817082"
+    },
+    {
+        "rating": "9.6",
+        "image_url": "https://www.bookvoed.ru//files/1377/56/66/17/1.jpeg",
+        "title": "Морфий",
+        "author": "Булгаков Михаил Афанасьевич",
+        "old_price": "товар без скидки",
+        "price": "154 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=6710497"
+    },
+    {
+        "rating": "нет рейтинга",
+        "image_url": "https://www.bookvoed.ru//files/1377/11/99/89/03.jpeg",
+        "title": "География. 9 класс. Контурные карты",
+        "author": "Приваловский А.",
+        "old_price": "93 ₽",
+        "price": "83 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=12985967"
+    },
+    {
+        "rating": "нет рейтинга",
+        "image_url": "https://www.bookvoed.ru//files/1377/56/03/16/0.jpeg",
+        "title": "География. 10–11 классы: атлас. 11-е издание, переработанное",
+        "author": "Приваловский А.Н.,ред.",
+        "old_price": "192 ₽",
+        "price": "172 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=8625709"
+    },
+    {
+        "rating": "9.0",
+        "image_url": "https://www.bookvoed.ru//files/1377/26/41/21/8.jpeg",
+        "title": "Я считаю до пяти. Рабочая тетрадь для дошк. 4-5 лет",
+        "author": "Колесникова, Елена Владимировна",
+        "old_price": "товар без скидки",
+        "price": "104 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=6095512"
+    },
+    {
+        "rating": "8.8",
+        "image_url": "https://www.bookvoed.ru//files/1377/68/27/37/0.jpeg",
+        "title": "Тетрадь с заданиями для развития детей. Изучаем математику. Часть 2",
+        "author": "",
+        "old_price": "37 ₽",
+        "price": "28 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=614480"
+    },
+    {
+        "rating": "9.0",
+        "image_url": "https://www.bookvoed.ru//files/1377/30/47/31/1.jpeg",
+        "title": "Великий Гэтсби",
+        "author": "Фицджеральд Френсис Скотт Кэй",
+        "old_price": "товар без скидки",
+        "price": "180 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=6165681"
+    },
+    {
+        "rating": "9.2",
+        "image_url": "https://www.bookvoed.ru//files/1377/55/91/69/9.jpeg",
+        "title": "Белые ночи",
+        "author": "Достоевский Федор Михайлович",
+        "old_price": "товар без скидки",
+        "price": "163 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=7949027"
+    },
+    {
+        "rating": "нет рейтинга",
+        "image_url": "https://www.bookvoed.ru//files/1377/79/99/51/1.jpg",
+        "title": "Математика. 2 класс. Рабочая тетрадь. В двух частях (комплект из 2 книг)",
+        "author": "Моро Мария Игнатьевна",
+        "old_price": "424 ₽",
+        "price": "381 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=10041836"
+    },
+    {
+        "rating": "8.8",
+        "image_url": "https://www.bookvoed.ru//files/1377/80/06/08/3.jpg",
+        "title": "Санкт-Петербург. Подробный туристический план. 1: 14500(1: 15 000), 1:35 000",
+        "author": "",
+        "old_price": "товар без скидки",
+        "price": "165 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=460687"
+    },
+    {
+        "rating": "нет рейтинга",
+        "image_url": "https://www.bookvoed.ru//files/1377/68/22/50/3.jpg",
+        "title": "Математика. 3 класс. Проверочные работы",
+        "author": "Волкова А.А.",
+        "old_price": "219 ₽",
+        "price": "197 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=10041851"
+    },
+    {
+        "rating": "нет рейтинга",
+        "image_url": "https://www.bookvoed.ru//files/1377/11/74/30/49.jpeg",
+        "title": "Девчонки, я приехал!",
+        "author": "Устинова Татьяна Витальевна",
+        "old_price": "товар без скидки",
+        "price": "544 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=13098628"
+    },
+    {
+        "rating": "7.4",
+        "image_url": "https://www.bookvoed.ru//files/1377/72/49/31/2.jpeg",
+        "title": "Синтонимы",
+        "author": "Мирай Медина",
+        "old_price": "товар без скидки",
+        "price": "378 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=10098892"
+    },
+    {
+        "rating": "9.5",
+        "image_url": "https://www.bookvoed.ru//files/1377/11/47/56/78.jpeg",
+        "title": "Ведьмак. Последнее желание. Меч предназначения",
+        "author": "Сапковский Анджей",
+        "old_price": "товар без скидки",
+        "price": "529 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=10342503"
+    },
+    {
+        "rating": "4.2",
+        "image_url": "https://www.bookvoed.ru//files/1377/11/50/07/12.jpeg",
+        "title": "Конституция Российской Федерации с поправками 2020 года. Принята Всенародным голосованием 12 декабря 1993 года. Официальный текст",
+        "author": "",
+        "old_price": "товар без скидки",
+        "price": "46 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=10478495"
+    },
+    {
+        "rating": "9.6",
+        "image_url": "https://www.bookvoed.ru//files/1377/56/27/02/0.jpeg",
+        "title": "Пикник на обочине",
+        "author": "Стругацкие Аркадий и Борис Натановичи",
+        "old_price": "товар без скидки",
+        "price": "215 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=6247588"
+    },
+    {
+        "rating": "нет рейтинга",
+        "image_url": "https://www.bookvoed.ru//files/1377/73/29/27/2.jpeg",
+        "title": "Spotlight. Workbook / Английский язык. Рабочая тетрадь. 4 класс. Учебное пособие для общеобразовательных организаций",
+        "author": "Быкова Надежда Ильинична",
+        "old_price": "509 ₽",
+        "price": "458 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=10197083"
+    },
+    {
+        "rating": "9.6",
+        "image_url": "https://www.bookvoed.ru//files/1377/74/75/23/0.jpeg",
+        "title": "Атомные привычки. Как приобрести хорошие привычки и избавиться от плохих",
+        "author": "Клир Джеймс",
+        "old_price": "товар без скидки",
+        "price": "609 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=10310186"
+    },
+    {
+        "rating": "9.7",
+        "image_url": "https://www.bookvoed.ru//files/1377/54/43/87/0.jpg",
+        "title": "От А до Я. Рабочая тетрадь для детей 5-6 лет. ФГОС ДО",
+        "author": "Колесникова Елена Владимировна",
+        "old_price": "товар без скидки",
+        "price": "198 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=8627160"
+    },
+    {
+        "rating": "9.7",
+        "image_url": "https://www.bookvoed.ru//files/1377/32/05/24/4.jpeg",
+        "title": "Пёс по имени Мани",
+        "author": "Шефер Бодо",
+        "old_price": "товар без скидки",
+        "price": "446 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=6519683"
+    },
+    {
+        "rating": "нет рейтинга",
+        "image_url": "https://www.bookvoed.ru//files/1377/11/59/25/05.jpeg",
+        "title": "Конституция Российской Федерации в новейшей действующей редакции 2021 года",
+        "author": "",
+        "old_price": "товар без скидки",
+        "price": "67 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=13001858"
+    },
+    {
+        "rating": "7.5",
+        "image_url": "https://www.bookvoed.ru//files/1377/79/98/02/1.jpg",
+        "title": "Сад",
+        "author": "Степнова Марина Львовна",
+        "old_price": "товар без скидки",
+        "price": "564 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=10477154"
+    },
+    {
+        "rating": "9.4",
+        "image_url": "https://www.bookvoed.ru//files/1377/11/53/33/49.jpeg",
+        "title": "Мара и Морок. 500 лет назад",
+        "author": "Арден Лия",
+        "old_price": "товар без скидки",
+        "price": "462 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=12780016"
+    },
+    {
+        "rating": "нет рейтинга",
+        "image_url": "https://www.bookvoed.ru//files/1377/73/65/55/2.jpeg",
+        "title": "Английский язык. 2 класс. Сборник упражнений. Учебное пособие для общеобразовательных организаций",
+        "author": "Быкова Надежда Ильинична",
+        "old_price": "286 ₽",
+        "price": "257 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=10240270"
+    },
+    {
+        "rating": "нет рейтинга",
+        "image_url": "https://www.bookvoed.ru//files/1377/68/22/77/3.jpeg",
+        "title": "Английский язык. Рабочая тетрадь. 2 класс. Пособие для учащихся общеобразовательных учреждений",
+        "author": "Быкова",
+        "old_price": "509 ₽",
+        "price": "458 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=10041868"
+    },
+    {
+        "rating": "2.7",
+        "image_url": "https://www.bookvoed.ru//files/1377/79/44/20/5.jpg",
+        "title": "Конституция РФ Новая редакция (с гимном России) 2020.",
+        "author": "",
+        "old_price": "товар без скидки",
+        "price": "19 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=10438480"
+    },
+    {
+        "rating": "9.7",
+        "image_url": "https://www.bookvoed.ru//files/1377/64/30/59/1.jpeg",
+        "title": "Ночь в Лиссабоне",
+        "author": "Ремарк Эрих Мария",
+        "old_price": "товар без скидки",
+        "price": "224 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=7556945"
+    },
+    {
+        "rating": "9.0",
+        "image_url": "https://www.bookvoed.ru//files/1377/44/75/19/7.jpg",
+        "title": "Богатый папа, бедный папа",
+        "author": "Кийосаки Роберт Т.",
+        "old_price": "товар без скидки",
+        "price": "604 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=7685098"
+    },
+    {
+        "rating": "9.4",
+        "image_url": "https://www.bookvoed.ru//files/1377/10/15/22/34.jpeg",
+        "title": "Предел",
+        "author": "Лукьяненко Сергей Васильевич",
+        "old_price": "541 ₽",
+        "price": "486 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=12022123"
+    },
+    {
+        "rating": "нет рейтинга",
+        "image_url": "https://www.bookvoed.ru//files/1377/11/53/05/06.jpeg",
+        "title": "Правила дорожного движения Российской Федерации на 5 мая 2021года",
+        "author": "",
+        "old_price": "товар без скидки",
+        "price": "22 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=12142236"
+    },
+    {
+        "rating": "9.2",
+        "image_url": "https://www.bookvoed.ru//files/1377/78/82/16/5.jpg",
+        "title": "Моя геройская академия. Том 2",
+        "author": "Хорикоси Кохэй",
+        "old_price": "товар без скидки",
+        "price": "614 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=10365914"
+    },
+    {
+        "rating": "9.6",
+        "image_url": "https://www.bookvoed.ru//files/1377/69/03/76/4.jpeg",
+        "title": "Продажное королевство",
+        "author": "Бардуго Ли",
+        "old_price": "товар без скидки",
+        "price": "479 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=8544674"
+    },
+    {
+        "rating": "9.2",
+        "image_url": "https://www.bookvoed.ru//files/1377/64/30/43/1.jpeg",
+        "title": "Тень и кость",
+        "author": "Бардуго Ли",
+        "old_price": "товар без скидки",
+        "price": "438 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=8112076"
+    },
+    {
+        "rating": "9.1",
+        "image_url": "https://www.bookvoed.ru//files/1377/25/04/97/9.png",
+        "title": "Бегущая с волками: Женский архетип в мифах и сказаниях",
+        "author": "Эстес Кларисса Пинкола",
+        "old_price": "товар без скидки",
+        "price": "919 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=457495"
+    },
+    {
+        "rating": "9.4",
+        "image_url": "https://www.bookvoed.ru//files/1377/56/37/95/7.jpeg",
+        "title": "Жизнь взаймы, или У неба любимчиков нет",
+        "author": "Ремарк Эрих Мария",
+        "old_price": "товар без скидки",
+        "price": "241 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=8860147"
+    },
+    {
+        "rating": "9.6",
+        "image_url": "https://www.bookvoed.ru//files/1377/56/67/36/8.jpeg",
+        "title": "Sailor Moon. Том 1.",
+        "author": "Такэути Наоко",
+        "old_price": "товар без скидки",
+        "price": "472 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=9039464"
+    },
+    {
+        "rating": "нет рейтинга",
+        "image_url": "https://www.bookvoed.ru//files/1377/94/15/51/8.jpeg",
+        "title": "Правила дорожного движения 2021 с примерами и комментариями",
+        "author": "",
+        "old_price": "товар без скидки",
+        "price": "264 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=11515899"
+    },
+    {
+        "rating": "8.7",
+        "image_url": "https://www.bookvoed.ru//files/1377/11/50/05/31.jpeg",
+        "title": "Грозовой перевал",
+        "author": "Бронте Эмили Джейн",
+        "old_price": "товар без скидки",
+        "price": "168 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=10479072"
+    },
+    {
+        "rating": "9.3",
+        "image_url": "https://www.bookvoed.ru//files/1377/57/38/83/0.jpeg",
+        "title": "Думай медленно... решай быстро",
+        "author": "Канеман Даниэль",
+        "old_price": "товар без скидки",
+        "price": "829 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=3238177"
+    },
+    {
+        "rating": "нет рейтинга",
+        "image_url": "https://www.bookvoed.ru//files/1377/11/02/83/98.jpeg",
+        "title": "Сольфеджио. Рабочая тетрадь. 3 класс",
+        "author": "Калинина Галина Федоровна",
+        "old_price": "товар без скидки",
+        "price": "123 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=3302167"
+    },
+    {
+        "rating": "6.9",
+        "image_url": "https://www.bookvoed.ru//files/1377/45/54/01/6.png",
+        "title": "Гарри Поттер и Проклятое дитя. Части первая и вторая. Финальная версия сценария",
+        "author": "Роулинг Джоан Кэтлин",
+        "old_price": "товар без скидки",
+        "price": "529 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=7925042"
+    },
+    {
+        "rating": "8.9",
+        "image_url": "https://www.bookvoed.ru//files/1377/11/03/58/33.jpg",
+        "title": "Моя геройская академия. Книга 6",
+        "author": "Хорикоси Кохэй",
+        "old_price": "товар без скидки",
+        "price": "614 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=12953328"
+    },
+    {
+        "rating": "нет рейтинга",
+        "image_url": "https://www.bookvoed.ru//files/1377/68/27/58/0.jpeg",
+        "title": "Тетрадь с заданиями для развития детей. Окружающий мир. Часть 1. Предметы",
+        "author": "",
+        "old_price": "товар без скидки",
+        "price": "37 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=614475"
+    },
+    {
+        "rating": "нет рейтинга",
+        "image_url": "https://www.bookvoed.ru//files/1377/68/26/83/2.jpeg",
+        "title": "Тетрадь с заданиями для развития детей. Окружающий мир. Часть 2. Природа",
+        "author": "",
+        "old_price": "товар без скидки",
+        "price": "37 ₽",
+        "book_url": "https://www.bookvoed.ru/book?id=614882"
+    }
+]
